@@ -1,6 +1,6 @@
 import webpack from 'webpack';
 import htmlWebpackPlugin from 'html-webpack-plugin';
-import LiveReloadPlugin from 'webpack-livereload-plugin';
+import LiveReloadPlugin from '@kooneko/livereload-webpack-plugin';
 
 export default {
     entry: './src/client/index.js',
